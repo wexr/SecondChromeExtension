@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Udvikling af Chrome Extension: Test",
+    "description": "Dette er for at blive bedre til, og forstå hvordan Chrome Extensions fungere.",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
